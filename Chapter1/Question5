@@ -1,0 +1,5 @@
+fn main() {
+   let x="22pa1a05b0";
+   let y=&x;
+   println!("y:{}",y);
+}
