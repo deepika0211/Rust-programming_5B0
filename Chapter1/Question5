@@ -1,5 +1,8 @@
 fn main() {
-   let x="22pa1a05b0";
-   let y=&x;
-   println!("y:{}",y);
+    //implicit type declaration
+   let x=5;
+   println!("x: {}",x);
+   //explicit type declaration
+   let y:i32=15;
+   println!("y: {}",y);
 }
